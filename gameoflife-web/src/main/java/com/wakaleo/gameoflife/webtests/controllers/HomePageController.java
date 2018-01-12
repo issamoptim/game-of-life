@@ -18,7 +18,7 @@ public class HomePageController {
         return new ModelAndView("home");
     }
 
-	// Clicking the "home" text loads the main page
+	// Clicking the "home" text loads the main page by issam
     @RequestMapping("/home")
     public ModelAndView home() {
         return new ModelAndView("home");
